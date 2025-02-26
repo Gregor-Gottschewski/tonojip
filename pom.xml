@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>io.github.Gregor-Gottschewski</groupId>
+    <artifactId>tonojip</artifactId>
+    <version>1.0.0</version>
+    <packaging>jar</packaging>
+    <name>TonoJip</name>
+    <description>An Java library for INI-file parsing and writing</description>
+    <url></url>
+
+    <licenses>
+        <license>
+            <name>MIT License</name>
+            <url>https://mit-license.org/</url>
+        </license>
+    </licenses>
+
+    <developers>
+        <developer>
+            <name>Gregor Gottschewski</name>
+            <email>gregorgott.software@yahoo.com</email>
+            <timezone>+1</timezone>
+            <url>https://github.com/Gregor-Gottschewski</url>
+        </developer>
+    </developers>
+
+    <properties>
+        <maven.compiler.source>23</maven.compiler.source>
+        <maven.compiler.target>23</maven.compiler.target>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <junit.version>5.11.0</junit.version>
+    </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter</artifactId>
+            <version>RELEASE</version>
+            <scope>test</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter-api</artifactId>
+            <version>${junit.version}</version>
+            <scope>test</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter-engine</artifactId>
+            <version>${junit.version}</version>
+            <scope>test</scope>
+        </dependency>
+    </dependencies>
+</project>
