@@ -10,7 +10,7 @@
     <packaging>jar</packaging>
     <name>TonoJip</name>
     <description>An Java library for INI-file parsing and writing</description>
-    <url></url>
+    <url>https://github.com/Gregor-Gottschewski/tonojip</url>
 
     <licenses>
         <license>
@@ -34,6 +34,14 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <junit.version>5.11.0</junit.version>
     </properties>
+
+    <distributionManagement>
+        <repository>
+            <id>github</id>
+            <name>Gregor-Gottschewski</name>
+            <url>https://maven.pkg.github.com/Gregor-Gottschewski/tonojip</url>
+        </repository>
+    </distributionManagement>
 
     <dependencies>
         <dependency>

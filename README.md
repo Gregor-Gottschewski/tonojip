@@ -19,6 +19,18 @@ The advantages of TonoJip over other INI-parsers are:
 
 ## Quickstart
 
+**Install with Maven**
+
+Add the following dependency to your `pom.xml`:
+
+```xml
+<dependency>
+    <groupId>io.github.Gregor-Gottschewski</groupId>
+    <artifactId>tonojip</artifactId>
+    <version>1.0.0</version>
+</dependency>
+```
+
 **Reading**
 
 The parser can be set up in a few lines of code. The following example shows how to parse an INI-file:
