@@ -69,7 +69,7 @@ iniFileWriter.close();
 
 ## The Ironic Story Behind TonoJip
 
-Professors in university tried their best to teach me the "five golden aspects of programming":
+Professors in university tried their best to teach me the "four golden aspects of programming":
 
 * Don't reinvent the wheel.
 * Never optimize what doesn’t need optimizing.
